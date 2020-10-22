@@ -3,7 +3,7 @@ const miPromise = new Promise((resolve, reject) => {
         if(Math.random() > 0.5) {
             resolve("Todo salió increible 😎");
         } else {
-            reject("Algo paso 😫 ");
+            reject(new Error("Algo paso 😫 "));
         }
     }, 2000);
 });
