@@ -17,6 +17,7 @@ const logger = new Logger();
 logger.on("start", () => console.log("Estoy iniciando"));
 logger.on("finish", () => console.log("Primer Fin"));
 logger.on("finish", () => console.log("Segundo fin"));
+logger.on("start", () => console.log("Segundo inicio"));
 
 // logger.execute(() => console.log("Soy la funcion Callback"));
 logger.execute(() => setTimeout(() => console.log("Soy asincrono"), 500));
