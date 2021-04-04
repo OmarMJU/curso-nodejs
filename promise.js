@@ -9,5 +9,5 @@ const miPromise = new Promise((resolve, reject) => {
 });
 
 miPromise.then(msg => msg.toUpperCase())
-.then(msg => console.log("El msneaje es", msg))
+.then(msg => console.log("El mensaje es", msg))
 .catch(err => console.error("Ocurro un error", err));
