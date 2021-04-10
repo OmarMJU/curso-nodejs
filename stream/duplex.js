@@ -1,3 +1,9 @@
+/*
+Para saber más sobre Streams en NodeJ
+se puede consultar el siguente enlac:
+https://elabismodenull.wordpress.com/2017/03/28/el-manejo-de-streams-en-nodejs/
+*/
+
 const { Duplex } = require("stream");
 const streamDuples = new Duplex({
     write (chunk, encoding, callback) {
