@@ -1,3 +1,8 @@
+/**
+ * Documentación de referencia.
+ * https://pinchito.es/2013/modo-cluster
+ */
+
 const clutser = require("cluster");
 const http = require("http");
 const numCpus = require("os").cpus().length;
